@@ -1,0 +1,34 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url("../images/body-bg20.png");
+
+}
+
+.box {
+   max-width: 200px;
+   width: 100%;
+
+   background-color: rgba(255, 255, 255, 0.652);
+   backdrop-filter: blur(5px);
+
+}
+
+.box:hover {
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+   background-color: rgba(255, 255, 255, 0.425);
+   backdrop-filter: blur(2px);
+
+}
+
+.card-img {
+   transition: all 0.3s ease;
+}
+
+.card-img:hover {
+   transform: scale(0.95);
+}

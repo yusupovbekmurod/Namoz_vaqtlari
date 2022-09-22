@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+   <!-- main css -->
+   <link rel="stylesheet" href="./styles/style.css">
+   <title>NAMOZ VAQTLARI</title>
+</head>
+
+<body>
+
+   <div class="container">
+      <div class="row">
+         <div class="col-12 p-3 bg-success text-light">
+            <h2 class="title text-center"> Namoz vaqtlari</h2>
+         </div>
+         <div class="col-6 p-3 text-right d-flex justify-content-end align-items-center">
+            <h4>Hududni tanlang</h4>
+         </div>
+         <div class="col-6 p-3 text-right d-flex justify-content-start align-items-center">
+            <select class="form-select w-50" id="region">
+               <option disabled selected>Mintaqani tanlang:</option>
+            </select>
+         </div>
+
+         <div class="col-lg-6 col-md-12 col-sm-12 p-4 bg-light">
+            <h2 class="text-dark">Mintaqani tanlang: <span class="text-warning" id="city"> </span> </h2>
+         </div>
+         <div class="col-lg-6 col-md-12 col-sm-12 p-4 bg-light d-flex 
+        justify-content-center text-center  ">
+            <h3 class="text-center "><span class="week_day text-center"></span> </h3>
+            <div class="">
+               <h3 class="text-center">
+                  <span class="text-warning ms-3 text-center" id="time"> </span>
+               </h3>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="row d-flex justify-content-around gap-4 pt-5">
+
+         <div class="col-lg-2 col-md-4 col-sm-6 text-center card box p-3 ">
+            <h3 class="time">Tong</h3>
+            <img src="./images/tong.svg" alt="tong" class="card-img">
+            <h4 class="fs-1">
+               04:58
+            </h4>
+         </div>
+
+         <div class="col-lg-2 col-md-4 col-sm-6 text-center card box p-3 ">
+            <h3 class="time">Quyosh</h3>
+            <img src="./images/sunrise.svg" alt="tong" class="card-img">
+            <h4 class="fs-1">
+               06:05
+            </h4>
+         </div>
+
+
+         <div class="col-lg-2 col-md-4 col-sm-6 text-center card box p-3 ">
+            <h3 class="time">Peshin</h3>
+            <img src="./images/sun.svg" alt="tong" class="card-img">
+            <h4 class="fs-1">
+               12:38
+            </h4>
+         </div>
+
+
+         <div class="col-lg-2 col-md-4 col-sm-6 text-center card box p-3 ">
+            <h3 class="time">Asr</h3>
+            <img src="./images/sunsasr.svg" alt="tong" class="card-img">
+            <h4 class="fs-1">
+               16:58
+            </h4>
+         </div>
+
+         <div class="col-lg-2 col-md-4 col-sm-6 text-center card box p-3 ">
+            <h3 class="time">Shom</h3>
+            <img src="./images/shom.svg" alt="tong" class="card-img">
+            <h4 class="fs-1">
+               17:48
+            </h4>
+         </div>
+
+         <div class="col-lg-2 col-md-4 col-sm-6 text-center    card box p-3 ">
+            <h3 class="time">Xufton</h3>
+            <img src="./images/moon.svg" alt="tong" class="card-img">
+            <h4 class="fs-1">
+               19:46
+            </h4>
+         </div>
+
+
+
+
+      </div>
+
+
+   </div>
+
+
+
+
+</body>
+<script src="./region.js"></script>
+<script src="./plugin.js"></script>
+<script src="./script.js"></script>
+
+</html>
